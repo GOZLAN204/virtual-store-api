@@ -1,0 +1,23 @@
+{
+  "name": "virtual-store",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Gozlan",
+  "license": "ISC",
+  "description": "REST API for virtual store management with MongoDB",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2",
+    "morgan": "^1.11.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
